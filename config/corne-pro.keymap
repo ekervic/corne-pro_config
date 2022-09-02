@@ -22,4 +22,3 @@
 #include <dt-bindings/zmk/outputs.h>
 
 // #include "42key-common.dtsi"
-#include "42key-common-colemak.dtsi"
