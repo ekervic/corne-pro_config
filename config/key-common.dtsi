@@ -182,28 +182,22 @@
         };
 
         // others
-        combo_capswd {
-            timeout-ms = <50>;
-            key-positions = <3 8>;
-            bindings = <&caps_word>;
-        };
-
         combo_lsym {
             timeout-ms = <50>;
-            key-positions = <37 40>;
+            key-positions = <38 39>;
             bindings = <&tog SYM>;
         };
 
         combo_lnum {
             timeout-ms = <50>;
-            key-positions = <38 39>;
+            key-positions = <37 40>;
             bindings = <&tog NUM>;
         };
 
-        combo_hello {
+        combo_caps {
             timeout-ms = <50>;
             key-positions = <37 38>;
-            bindings = <&hello>;
+            bindings = <&kp CAPS>;
         };
 
         combo_outble {
