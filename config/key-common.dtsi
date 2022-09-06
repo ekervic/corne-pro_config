@@ -77,28 +77,28 @@
     combos {
         compatible = "zmk,combos";
         // right hand 
-        combo_esc {
+        combo_up {
+            timeout-ms = <50>;
+            key-positions = <7 19>;
+            bindings = <&kp UP>;
+        };
+        
+         combo_down {
+            timeout-ms = <50>;
+            key-positions = <19 31>;
+            bindings = <&kp DOWN>;
+        };
+        
+         combo_left {
+            timeout-ms = <50>;
+            key-positions = <18 19>;
+            bindings = <&kp LEFT>;
+        };
+        
+         combo_right {
             timeout-ms = <50>;
             key-positions = <19 20>;
-            bindings = <&kp ESC>;
-        };
-        
-         combo_lgui {
-            timeout-ms = <50>;
-            key-positions = <6 7>;
-            bindings = <&kp LGUI>;
-        };
-        
-         combo_fullscreen {
-            timeout-ms = <50>;
-            key-positions = <30 31>;
-            bindings = <&kp F11>;
-        };
-        
-         combo_wkspc_up {
-            timeout-ms = <50>;
-            key-positions = <11 23>;
-            bindings = <&kp LC(UP)>;
+            bindings = <&kp RIGHT>;
         };
         
          combo_wkspc_down {
