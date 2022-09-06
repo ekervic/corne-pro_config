@@ -219,34 +219,6 @@
         };
 
         // ble selection
-        combo_ble1 {
-            timeout-ms = <50>;
-            key-positions = <17 29>;
-            bindings = <&bt BT_SEL 0>;
-        };
-
-        combo_ble2 {
-            timeout-ms = <50>;
-            key-positions = <16 28>;
-            bindings = <&bt BT_SEL 1>;
-        };
-
-        combo_ble3 {
-            timeout-ms = <50>;
-            key-positions = <15 27>;
-            bindings = <&bt BT_SEL 2>;
-        };
-
-        combo_ble4 {
-            timeout-ms = <50>;
-            key-positions = <14 26>;
-            bindings = <&bt BT_SEL 3>;
-        };
-
-        combo_ble5 {
-            timeout-ms = <50>;
-            key-positions = <13 25>;
-            bindings = <&bt BT_SEL 4>;
-        };
+       
     };
 };
