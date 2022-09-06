@@ -16,11 +16,6 @@
         , <&kp E &kp N &kp C &kp O &kp D &kp E &kp R>;
       )
     
-      ZMK_MACRO(spc2,
-        wait-ms = <0>;
-        tap-ms  = <10>;
-        bindings = <&kp LA(M) &kp N2>;
-      )
     };
    
     // combos
@@ -75,22 +70,7 @@
             bindings = <&kp END>;
         };
         
-        // left hand 
-
-      
-
-        // symbols
-
-
-
-
         // others
-        combo_capswd {
-            timeout-ms = <50>;
-            key-positions = <3 8>;
-            bindings = <&caps_word>;
-        };
-
         combo_lsym {
             timeout-ms = <50>;
             key-positions = <37 40>;
@@ -108,9 +88,5 @@
             key-positions = <37 38>;
             bindings = <&kp CAPSLOCK>;
         };
-
-
-
-  
     };
 };
